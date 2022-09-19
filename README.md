@@ -1,6 +1,8 @@
 # RGB-image-MATLAB
 Read RGB image , convert to grayscale , Display Image on matlab
+
 Steps:-
+
 a: read
 • read the RGB image file (using imread())
 • display in the console the size of the RGB image (using size())

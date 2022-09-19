@@ -6,6 +6,7 @@ rgb_img=imread('onion.png');
 % display rgb img
 figure(1)
 imshow(rgb_img);
+title("RGB image", 'FontSize', 14);
 
 % display size of image
 disp(size(rgb_img));
@@ -16,6 +17,7 @@ gray_img=rgb2gray(rgb_img);
 % display gray img
 figure(2)
 imshow(gray_img);
+title("Grayscale image", 'FontSize', 14);
 
 % display size of grayscale image
 disp(size(gray_img));
@@ -26,6 +28,7 @@ disp(size(gray_img));
 a=gray_img(1:50,1:50);
 figure(3)
 imshow(a);
+title("top left 50 × 50 elements of the grayscale image", 'FontSize', 12);
 
 
 % write the grayscale image to a file
